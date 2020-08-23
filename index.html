@@ -3,32 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>#PlatziWebChallange</title>
-
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"/>
+  <link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"/>
+  <script src="https://kit.fontawesome.com/2351135cfa.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css"/>
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
     href="./images/favicon-32x32.png"
   />
-
-  <title>
-    Frontend Mentor | Huddle landing page with single introductory section
-  </title>
-
 </head>
+
 <body>
-  <h1>
-    The Community Your Fans Will Love Huddle re-imagines the way we build
-  </h1> 
-  <h4>
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion.
-  </h4>
-  <form action="/registro/"
+  <header class="header">
+    <figure class="header-logo">
+      <img src="images/logo.svg" alt="logo">
+      
+    </figure>
+  </header>
 
-  <button> Register </button>
-  
-
+  <section class="hero">
+    <figure clas="hero-imageContainer">
+      <img class="hero-image" src="./images/illustration-mockups.svg" alt="">
+    </figure>
+   <article class="hero-content">
+    <h1 class="hero-content-title">
+      Build The Community Your Will Love
+    </h1> 
+    <p class="hero-content-paragraph">
+      Huddle re-imagines the way build communities. You have a voice, but so does your audience. Create connections
+      with your users as you engage in genuine discussion.
+    </p>
+    <form  action="/registro/" class="register">
+      <button class="register-button"> Register </button>
+    </form>
+   </article>
+  </section>
+<section class="contact">
+    <div class="social">
+      <a href="https://www.facebook.com/yajaira1803/" class="social-link facebook" >
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fab fa-facebook-f fa-stack-1x "></i>
+        </span>
+      </a>
+      <a href="https://twitter.com/yaja_af" class="social-link twitter">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fab fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+      <a href="https://www.instagram.com/yajayra.arauco/?hl=es-la" class="social-link instagram">
+        <span class="fa-stack" style="vertical-align: top;">
+          <i class="fab fa-instagram fa-stack-1x"></i>
+        </span>
+      </a>
+    </div>
+</section>
 </body>
 </html>
