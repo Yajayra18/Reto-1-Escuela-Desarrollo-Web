@@ -112,7 +112,7 @@ body{
     background-image: url(./images/bg-mobile.svg);
     width: 375px;
     height: 800px;
-    border: 2px solid red;
+
   }
 
 
@@ -168,13 +168,11 @@ header img{
 }
 
 .contact{
-  width:75%;
+  width:100%;
   padding: 0;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
-.social-link{
-  width:5%;
-  padding: 5%;
-}
+
+
 }
