@@ -75,7 +75,7 @@ body{
   box-shadow: 2px 2px 5px rgb(66, 66, 66);
 }
 
-.contact{
+.fooder{
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -112,67 +112,91 @@ body{
     background-image: url(./images/bg-mobile.svg);
     width: 375px;
     height: 800px;
+    margin: 0;
+    padding: 0;
+
+    }
+
+  .header-logo{
+    margin: 0px 90px 8px 35px;
+    padding: 0;
+  }
+
+  header img{
+    width:50%;
+    margin: 0;
+    padding: -2px 0 0 0;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .hero-imageContainer{
+    margin: 15px 36px;
+    padding: 0;
+  }
+
+  .hero-image{
+    width:100%;
+    margin: 0;
+    padding: 0;
 
   }
 
+  .hero-content{
+    width:78%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+  }
 
 
-header img{
-  width:50%;
-  margin: 0;
-  padding: -2px 0 0 0;
-}
+  .hero-content-title{
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+    
+  }
 
-.hero{
-  height: px;
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.hero-image{
-  width:100%;
-  margin: 0;
-  padding: 0;
-
-}
-
-.hero-content{
-  width:78%;
-  padding: 30px 0 0 0;
-  display: flex;
-  align-items: center;
-}
+  .hero-content-paragraph{
+    font-family: Open Sans,sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 15.5px;
+  }
 
 
-.hero-content-title{
-  line-height: 28px;
-  text-align: center;
-  color: white;
-  font-size: 24px;
-  
-}
+  .register-button{
+    font-size: 12px;
+    padding:8px 70px ;
+    border: 0;
+  }
 
-.hero-content-paragraph{
-  font-family: Open Sans,sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 16px;
-}
+  .fooder{
+    width:100%;
+    padding: 0;
+  }
 
+  .social{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
 
-.register-button{
-  font-size: 12px;
-  padding:8px 55px ;
-  border: 0;
-}
+  .social-link{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+  }
 
-.contact{
-  width:100%;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
+  .fa-stack{
+    transform: scale(0.55);
+  }
 
-
-}
+  }
