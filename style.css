@@ -77,13 +77,13 @@ body{
 
 .fooder{
   color: white;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+
   
 }
 .social {
-
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .social-link{
