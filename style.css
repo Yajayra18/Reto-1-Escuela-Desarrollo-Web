@@ -93,27 +93,9 @@ body{
   width: 50px;
   height: 50px;
   margin: 0 10px;
- /* border: 1px solid white;
-  border-radius: 50px 50px;*/
 
 }
-/*
-.social-link.facebook{
-  background-image: url('./images/logo-facebook.svg');
-  background-size: 40px 40px;
-}
 
-.social-link.twitter{
-  background-image: url('./images/logo-twitter.svg');
-  background-size: 50px 50px;
-}
-
-.social-link.instagram{
-  background-image: url('./images/logo-instagram.svg');
-  background-size: 50px 50px;
-  
-}
-*/
 .fa-stack{
   display: flex;
   justify-content: center;
@@ -125,4 +107,74 @@ body{
 }
 
 
-@media only
+@media only screen and (max-width: 375px){
+  body{
+    background-image: url(./images/bg-mobile.svg);
+    width: 375px;
+    height: 800px;
+    border: 2px solid red;
+  }
+
+
+
+header img{
+  width:50%;
+  margin: 0;
+  padding: -2px 0 0 0;
+}
+
+.hero{
+  height: px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.hero-image{
+  width:100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.hero-content{
+  width:78%;
+  padding: 30px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.hero-content-title{
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  
+}
+
+.hero-content-paragraph{
+  font-family: Open Sans,sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+
+.register-button{
+  font-size: 12px;
+  padding:8px 55px ;
+  border: 0;
+}
+
+.contact{
+  width:75%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.social-link{
+  width:5%;
+  padding: 5%;
+}
+}
